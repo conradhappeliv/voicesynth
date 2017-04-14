@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: #333333;
+}
+
+p {
+    margin: 10px auto;
+    font-family: 'Cabin', sans-serif;
+}
+
+.container {
+    text-align: center;
+    width: 40%;
+    margin:0 auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1, .header h4 {
+    display: inline-block;
+}
+
+.header h1 {
+    font-family: 'Trocchi', serif;
+    margin: 20px auto;
+    font-size:50px;
+}
+
+.header h4 {
+    font-family: 'Pacifico', cursive;
+    font-size:25px;
+}
+
+.header h4 a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.noUi-horizontal {
+    padding-right: 32px;
+}
+
+.noUi-horizontal .noUi-handle {
+    height:18px;
+    left: -1px;
+    top:-1px;
+    box-shadow: none;
+    background-color: #333333;
+    cursor: pointer;
+}
+
+.noUi-horizontal .noUi-origin {
+    right: -32px;
+}
+
+.noUi-horizontal .noUi-handle:before, .noUi-horizontal .noUi-handle:after {
+    height: 5px;
+    top: 5px;
+}
+
+#octaveslider {
+    margin-top:40px;
+}

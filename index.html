@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VoiceSynth</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Pacifico|Trocchi" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/nouislider.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+<body>
+    <div class="header">
+        <h1>VoiceSynth</h1>
+        <h4>, By <a href="https://conradhappeliv.com/">Conrad Appel</a></h4>
+    </div>
+
+    <div class="container">
+        <p data-bind="text: notename"></p>
+        <p data-bind="text: offset"></p>
+        <p data-bind="text: freq"></p>
+
+        <div id="octaveslider"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
