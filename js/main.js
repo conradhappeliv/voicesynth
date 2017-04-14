@@ -10,7 +10,7 @@ let osc;
 let gain;
 let delay;
 let delayGain;
-let curgain = 1;
+let curgain = 0;
 let prevPitch = 0;
 let buf = new Float32Array(analyserSize/2);
 
